@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    position: relative;
+    padding: 5px;
+}
+.container .header{
+    text-align: center;
+    border-bottom: 3px solid green;
+}
+
+.navbar{
+    position: relative;
+    display: inline-block;
+    background: gray;
+    width: 98%;
+    padding: 10px;
+    height: 100%;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li a {
+    font-weight: bold;
+    padding: 10px 10px 11px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a:active, .navbar li a:focus {
+    background-color: crimson;
+    color: black;
+    
+}
+
+.chart-div{
+    position: relative;
+    top: 50px;
+    width: 90%;
+    left: 5%;
+}
