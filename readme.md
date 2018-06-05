@@ -20,3 +20,6 @@ Step 3:
 $ npm run-script build
 $ npm start
 ```
+
+Step 4: Open browser
+http://localhost:3000
